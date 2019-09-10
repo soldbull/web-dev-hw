@@ -1,18 +1,38 @@
-My responses:
+# **My responses:**
 
-Briefly describe one way how data travels on the internet.
+**Briefly describe one way how data travels on the internet.**
 
-The internet is a tangable system used to move information. The internet ships binary information, which are sequences, or bits, of ones\ and zeros. The bits can be sent by light, electricty, and/or radiowaves. The latency is dependent on the bandwidth. The bits are fit into\ packets; they do not need to follow a fixed path. Once all the packets are sent the data can be opened. All packets have IP addresses from\ where they come from and where they are going. The network is fault tolerant and therefore packets can continue to be sent, even if\ its not directly. TCP acknowledges that all packets are delivered, or not.
+The internet is a tangable system used to move information. The internet ships binary information, which are sequences, or bits, of ones
 
-What is the relationship between an IP address and the DNS?
+and zeros. The bits can be sent by light, electricty, and/or radiowaves. The latency is dependent on the bandwidth. The bits are fit into
 
-Each device that accesses the internet has an internet protocal address, or an IP address. An IP address is organized in parts. The\ addresses have enough room for 128 bits. A system called a domain name system, DNS, associates domain names with corresponding IP\ addresses. Your computer uses the DNS to look up domain names and get the associated IP address, which is used to connect your computer to\ the destination on the internet.
+packets; they do not need to follow a fixed path. Once all the packets are sent the data can be opened. All packets have IP addresses
 
-What is a cookie?
+from where they come from and where they are going. The network is fault tolerant and therefore packets can continue to be sent, even if
 
-This is a data that attaches to such things as post requests. Your browser sees the the cookie data and knows to save this data. This is\ the only way a website can remember who you are. The cookie data is an ID card; its a number that identifies you. Your web browser holds\ onto this number. The next time you visit the same website, your web browser knows to automatically attach that ID number with your post\ requests and the server knows its a request from you.
+its not directly. TCP acknowledges that all packets are delivered, or not.
 
-List the the three basic parts of a URL.
+**What is the relationship between an IP address and the DNS?**
+
+Each device that accesses the internet has an internet protocal address, or an IP address. An IP address is organized in parts. The
+
+addresses have enough room for 128 bits. A system called a domain name system, DNS, associates domain names with corresponding IP
+
+addresses. Your computer uses the DNS to look up domain names and get the associated IP address, which is used to connect your computer
+
+to the destination on the internet.
+
+**What is a cookie?**
+
+This is a data that attaches to such things as post requests. Your browser sees the the cookie data and knows to save this data. This is
+
+the only way a website can remember who you are. The cookie data is an ID card; its a number that identifies you. Your web browser holds
+
+onto this number. The next time you visit the same website, your web browser knows to automatically attach that ID number with your post
+
+requests and the server knows its a request from you.
+
+**List the the three basic parts of a URL.**
 
 - Protocol
 - Domain name
