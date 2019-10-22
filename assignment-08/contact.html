@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+  <head>
+
+    <!-- meta data comments that people don't see -->
+    <meta charset="utf-8">
+    <meta name="description" content="short description">
+    <meta name="author" content="Salisha Old Bull">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+
+    <!-- style element given by professor -->
+    <style>
+    body {
+      background-color: black;
+      text-align: center;
+    }
+    .container {
+      background-color: blanchedalmond;
+      width: 600px;
+      margin: auto;
+      padding: 20px;
+      border: 1px darkred;
+    }
+    .a-container {
+      background-color: blanchedalmond;
+      width: 600px;
+      margin: auto;
+      padding: 20px;
+      border: 1px darkred;
+      text-align: left;
+    }
+    a-class {
+      text-align: left;
+    }
+    b-class {
+      text-align: center;
+    }
+    table, th, td {
+      border: 1px solid black;
+    }
+    </style>
+  </head>
+  <body>
+    <div id="pages" class="container">
+      <nav id="main">
+        <a href="./index.html">Home</a>
+        <a href="about">About</a>
+        <a href="contact">Contact</a>
+      </nav>
+    </div>
+    <br/>
+    <div id="contact-form" class="a-container">
+      <h1>Contact Me</h1>
+        <p>Do you have questions or conversation? Send me a
+          message and I will respond as soon as possible</p>
+        <form action="https://example.com/registration.php" method="get" id="name" class="basic-forms">
+          Name:
+          <input type="text" name="firstname" maxlength="150" autofocus>
+
+        <br/><br/>
+
+          Email Address:
+          <input type="text" name="email" maxlength="150" autofocus>
+
+        <br/><br/>
+
+          Message/Comments:
+          <br />
+          <textarea cols="60" rows="20">
+
+            Your message or Comments
+
+          </textarea>
+        <br /><br />
+
+          <input type="button" value="Submit" padding="20px">
+        </form>
+    </div>
+    <br/>
+    <div id="table" class="container">
+
+      <h2>Random Table</h2>
+      <br/>
+      <table>
+        <thead>
+          <tr>
+            <th>Days</th>
+            <th scope="col">Hours</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">M-F</th>
+            <td>8am-4pm</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <th scope="row">Sat</th>
+            <td>9am-5pm</td>
+          </tr>
+        <tfoot>
+      </table>
+
+      <br /><br />
+    </div>
+  </body>
+</html>
