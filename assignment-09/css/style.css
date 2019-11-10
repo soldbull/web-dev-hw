@@ -1,0 +1,26 @@
+h1, h2 {
+  color: #95483f;
+}
+
+/* This is describing class */
+.rectangle {
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  text-align: center;
+  position: relative;
+}
+
+/* This is describing id */
+#light {
+  background-color: #f6f1ee;
+}
+
+#medium {
+  background-color: #ebbbaa;
+  opacity: 95%
+}
+
+#gold {
+  background-color: #fbbc93;
+}
