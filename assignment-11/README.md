@@ -2,15 +2,15 @@
 
 ## Salisha Old Bull
 
-##What is the difference between padding, margin, and borders?
+## What is the difference between padding, margin, and borders?
 
 Padding is the pixels that are around text. Margin is the area around a box/div. Borders are the lines that are surrounding the shape of the div.
 
-##Embed the image of your sketch. image icon
+## Embed the image of your sketch. image icon
 
 ![Sketch of idea for beginner's web layout](./images/sketch.png)
 
-##Free Response: Summarize your work cycle for this assignment.
+## Free Response: Summarize your work cycle for this assignment.
 
 This was the hardest assignment yet. I think I may need a to schedule an appointment
 to make sure I'm on track. I'm not quite grasping the order of code used in css and
