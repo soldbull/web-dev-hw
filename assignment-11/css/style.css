@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Kalam|Kaushan+Script&display=swap');
+
+body {
+  background-color: #f6f1ee;
+  color: #95483f;
+  position: relative;
+  text-align: left;
+  padding: 50px;
+}
+
+h1 h2 {
+  font-family: 'Kaushan Script', cursive;
+  background-color: #ebbbaa;
+  padding: 10px;
+}
+
+p li {
+  font-family: 'Kalam', cursive;
+  padding: 50px;
+  position: relative;
+}
+
+li {
+  display: inline;
+  margin-right: 10px;
+}
+
+img.logo {
+  width: 330px;
+  height: 210px;
+  float: right;
+  padding: 10px;
+}
+
+ul.align-center {
+  align-content: center;
+}
+
+.general-box {
+  width: 80%;
+  height: auto;
+  border-color: white;
+  border-width: 3px;
+  border-style: solid;
+  padding: 10px;
+  margin: 10 px;
+}
+
+a:visited {
+  color: #fbbc93;
+}
+
+a:hover {
+  color: #43464B;
+}
+
+.overflow-scroll {
+  overflow: scroll;
+}
+
+#header {
+  align-items: center;
+  padding: 30px;
+}
+
+.medium {
+  background-color: #ebbbaa;
+}
+
+.dark {
+  color: #43464B;
+}
+
+.gold {
+  background-color: #fbbc93;
+  padding: 25px;
+}
+
+.white {
+  color: white;
+}
+
+.cream {
+  background-color: #FFFEF2;
+  padding: 25px;
+}
+
+.pink {
+  background-color: #ffe5e4;
+  padding: 25px;
+}
+
+.cursive {
+  font-family: 'Kaushan Script', cursive;
+}
+
+.other-font {
+  font-family: 'Kalam', cursive;
+  font-size: 18px;
+}
+
+.heavy {
+  font-weight: bolder;
+}
+
+.leftside {
+  text-align: left;
+}
+
+p:first-of-type:first-letter {
+  font-family: 'Kaushan Script', cursive;
+  font-size: 3em;
+  color: #43464B;
+}
+
+.move-over {
+  margin-left: 50px;
+}
+
+.justify {
+  text-align: justify;
+}
