@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Bowlby+One+SC|Inconsolata|Kaushan+Script&display=swap');
+
+h2 {
+  font-family: 'Inconsolata', monospace;
+  background-color: #ebbbaa;
+  padding: 10px;
+}
+
+li a {
+  display: inline;
+  padding: 14px 16px;
+  color: rgb(180, 219, 173);
+  text-align: center;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  pading: 0;
+  overflow: hidden;
+  background-color: #592645;
+}
+
+ul.align-center {
+  align-content: center;
+}
+
+li a:hover {
+  background-color: #A84D6A;
+}
+
+p li {
+  font-family: 'Inconsolata', monospace;
+  padding: 50px;
+}
+
+.menu-item {
+  margin: auto;
+  padding: 0.25em;
+  min-width: 75px;
+  line-height: 2.5em;
+}
+
+.active {
+  background-color: #E16772;
+}
+
+.display-inline {
+  disply: inline;
+}
