@@ -9,15 +9,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
     <link rel="stylesheet" type="text/css" href="./css/style.css" />
+    <link rel="stylesheet" type="text/css" href="./css/menu.css" />
   </head>
+
   <body>
-      <nav id="main">
-        <ul>
-          <li><a href="./index.html">Home</a></li>
-          <li><a href="./about.html">About</a></li>
-          <li><a  href="./services.html">Services</a></li>
-          <li><a lass="active" href="./contact.html">Contact</a></li>
-        </ul>
-      </nav>
+    <div class="main-container">
+      <header>
+        <!-- site links -->
+        <menu id="navigation">
+          <div id="site-links">
+            <a href="./index.html" class="menu-item">Home</a>
+            <a href="./about.html" class="menu-item" >About</a>
+
+            <div class="dropdown">
+              <a href="#" class="menu-item" id="dropdown-group">More</a>
+              <div class="dropdown-content">
+                <a href="./services.html" class="dropdown-item">Artists</a>
+                <a href="./other.html" class="dropdown-item">Related Sites</a>
+                <a href="./contact.html" class="dropdown-item">Contact</a>
+            </div>
+            </div>
+          </div>
+        </menu>
+      </header>
+    </div>
+    <div class="box-one">
+      <form action="https://example.com/registration.php" method="post">
+        Enter your email address as a username
+        <input type="text" name="email" maxlength="50" autofocus>
+
+      <br /><br />
+
+        Enter a password
+        <input type="password" name="secrets" maxlength="50">
+
+      <br /><br />
+
+        Enter your comments below:
+        <br />
+          <textarea cols="40" rows="10">
+        My comments...
+          </textarea>
+
+      <br /><br />
+
+      <input type="button" value="Submit">
+      </form>
+    </div>
   </body>
 </html>

@@ -1,0 +1,62 @@
+/* Menu container for Navigation Menu */
+
+/* MENU BAR (CONTAINER) */
+menu {
+  background-color: #592645;
+}
+
+/* TOP LEVEL LINKS */
+#site-links {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+#site-links .menu-item {
+  width: 6em;
+  padding: .5em, 1em;
+  display: inline-block;
+
+  background-color: #592645;
+
+  text-align: center;
+  color: #B4DBAD;
+}
+/* psuedo class menu item */
+#site-links .menu-item:hover {
+  background-color: #A84064;
+
+  color: #592645;
+}
+
+/* DROPDOWN */
+#site-links .dropdown {
+  display: inline-block;
+  width: 6em;
+}
+#site-links .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #A84064;
+  z-index: 5;
+}
+
+#site-links .dropdown-content a {
+  color: #592645;
+  font-family: 'Inconsolata', monospace;
+}
+#site-links .dropdown-content a:hover {
+  color: #C9AF8B;
+}
+#site-links .dropdown:hover .dropdown-content {
+  display: block;
+}
+#site-links .dropdown-item {
+  min-width: 6em;
+  padding: .5em, 1em;
+  display: block;
+
+  text-align: center;
+}
+.dropdown-item:hover {
+  background-color: #E16772;
+}
