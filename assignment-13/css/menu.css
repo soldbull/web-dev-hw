@@ -1,0 +1,69 @@
+/* Menu container for Navigation Menu */
+
+/* MENU BAR (CONTAINER) */
+/* Blue color */
+menu {
+  background-color: #355C7D;
+}
+
+/* TOP LEVEL LINKS */
+#site-links {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+#site-links .menu-item {
+  width: 6em;
+  padding: .5em, 1em;
+  display: inline-block;
+
+  background-color: #355C7D;
+
+  text-align: center;
+  color: #F8B195;
+}
+/* psuedo class menu item */
+/* Purple background color */
+#site-links .menu-item:hover {
+  background-color: #6C5B7B;
+
+  color: #F67280;
+}
+
+/* DROPDOWN */
+#site-links .dropdown {
+  display: inline-block;
+  width: 6em;
+}
+
+/* Pink background color */
+#site-links .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #F67280;
+  z-index: 5;
+}
+
+/* Blue letters on dropdown */
+#site-links .dropdown-content a {
+  color: #355C7D;
+  font-family: 'Lato', sans-serif;
+}
+
+/* Peach letters on hover */
+#site-links .dropdown-content a:hover {
+  color: #F8B195;
+}
+#site-links .dropdown:hover .dropdown-content {
+  display: block;
+}
+#site-links .dropdown-item {
+  min-width: 6em;
+  padding: .5em, 1em;
+  display: block;
+
+  text-align: center;
+}
+.dropdown-item:hover {
+  background-color: #E16772;
+}

@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Lilita+One|Lobster|Oswald&display=swap');
+
+/* Lavender */
+body {
+  background-color: #C06C84;
+}
+
+/* Peach */
+h1 {
+  font-family: 'Lobster', cursive;
+  color: #F8B195;
+}
+
+/* Cream */
+h2 {
+  font-family: 'Lobster', cursive;
+  color: #F9E5BC;
+}
+
+/* Peach letters */
+p {
+  padding: 1em;
+  text-align:left;
+  font-family: 'Lato', sans-serif;
+  color: #F8B195;
+}
+li {
+  padding: 1em;
+  text-align:left;
+  font-family: 'Lato', sans-serif;
+  color: #F8B195;
+}
+form {
+  padding: 1em;
+  width: 50%;
+  color: #F8B195;
+  font-family: 'Lato', sans-serif;
+  background-color: #355C7D;
+}
+table {
+  font-family: 'Lato', sans-serif;
+  color: #355C7D;
+}
+address {
+  font-family: 'Lato', sans-serif;
+  color: #355C7D;
+}
+.box-one {
+  padding: 2em 2em .5em 2em;
+  text-align: left;
+}
+.box-two {
+  text-align: left;
+  margin: 0em 4em;
+}
+
+.container {
+  background-color: #355C7D;
+  width: 600px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid cream;
+}
+#placeholder {
+  /* blue */
+  background-color: #355C7D;
+  color: #F8B195;
+  width: 90%;
+  margin: 2em;
+}
+img.logo {
+  width: 330px;
+  height: 210px;
+  float: right;
+  padding: 10px;
+}
+img.logo2 {
+  width: 330px;
+  height: 210px;
+  float: center;
+  padding: 10px;
+}
+
+a {
+  padding: 14px 16px;
+  color: #F8B195;
+  text-align: center;
+  text-decoration: none;
+}
+
+.menu-item {
+  margin: auto;
+  padding: 0.25em;
+  min-width: 75px;
+  line-height: 2.5em;
+}
+
+.active {
+  background-color: #6C5B7B;
+}
+
+header {
+    font-family: 'Lilita One', cursive;
+    font-size: 20pt;
+    margin: 0;
+    height: 2.15em;
+    text-align: left;
+}
